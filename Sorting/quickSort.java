@@ -17,7 +17,6 @@ public class quickSort
 
 		Sort(arr, 0, n-1); 
 
-
 		for (int i=0; i<n; ++i) 
 			System.out.print(arr[i]+" ");     
         }
@@ -50,10 +49,7 @@ public class quickSort
 	{ 
 		if (low < high) 
 		{ 
-	
 			int pi = partition(arr, low, high); 
-
-	
 			Sort(arr, low, pi-1); 
 			Sort(arr, pi+1, high); 
 		} 
